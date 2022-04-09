@@ -15,11 +15,11 @@
 
 Java is an objected oriented language.
 
-Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995. James Gosling is known as the father of Java. 
+Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995. James Gosling led a team of researchers at Sun and is known as the father of Java. 
 
 ![James Gosling >](./images/gosling.jpeg)
 
-Before Java, its name was Oak. Since Oak was already a registered company, so James Gosling and his team changed the name from Oak to Java.
+Before Java, its name was Oak, a symbol of stability, longevity and strength. Since Oak was already a registered company, so James Gosling and his team changed the name from Oak to Java.  They wanted a new name that reflected the essence of the new technology: revolutionary, dynamic, lively, cool, unique, easy to spell and fun to say.
 
 ## Deconstructing HelloWorld.java
 
@@ -39,7 +39,7 @@ To Execute:
 
 + _class_ Keyword is used to declare class in Java.
 + _public_ keyword is used to access modifier that represents visibility.
-+ _static_ is a keyword.  THe core advantage of a static method is that there is no need to create an object to invoke the static method.
++ _static_ is a keyword.  The core advantage of a static method is that there is no need to create an object to invoke the static method.
 + _void_ is the return type of the method.
 + _main_ represents the staring point of the program.
 + _String[] args_ is used for command line argument.

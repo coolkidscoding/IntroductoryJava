@@ -15,7 +15,7 @@ public class Lesson02 {
 
         Count100();
         
-/*         // Array
+        // Array
         int iarray[] = new int[10];
         iarray[0] = 0;
         iarray[2] = 2;
@@ -89,7 +89,7 @@ public class Lesson02 {
         // Random
         Random rand = new Random();
 
-        System.out.println(rand.nextInt(0,100));
+        System.out.println(rand.nextInt(100));
         System.out.println(rand.nextInt());
         System.out.println(rand.nextBoolean());
         System.out.println(rand.nextDouble());
@@ -98,7 +98,7 @@ public class Lesson02 {
         StringTokenizer st = new StringTokenizer("The quick brown fox jumped over the lazy moon", " ");
         while (st.hasMoreTokens()) {
             System.out.println(st.nextToken());
-        } */
+        } 
    } 
 }
 

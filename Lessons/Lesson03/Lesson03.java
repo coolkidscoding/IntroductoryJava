@@ -4,6 +4,33 @@
 import package1.*;
 import package2.*;
 
+// Topics to discuss
+// Packages
+// Object Oriented Concepts
+// Methods
+//  signature of a method
+//  overloading of a method
+//  static methods
+// Attributes
+//  static attributes
+// Constructors
+//  default
+//  this
+// Modifiers
+// Encapsulation 
+// Inheritance
+//  super
+//  base class instantiation
+
+public class Bicycle {
+    public int cadence;
+    public int gear;
+    public int speed;
+
+    public void applyBrake(int decrement) {
+        speed -= decrement;
+    }
+}
 public class Lesson03 {
 
     public static void main(String args[])

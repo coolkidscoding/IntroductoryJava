@@ -4,33 +4,30 @@
 import package1.*;
 import package2.*;
 
-// Topics to discuss
-// Packages
-// Object Oriented Concepts
-// Methods
-//  signature of a method
-//  overloading of a method
-//  static methods
-// Attributes
-//  static attributes
-// Constructors
-//  default
-//  this
-// Modifiers
-// Encapsulation 
-// Inheritance
-//  super
-//  base class instantiation
+class Animal {
+    // attributes
+    String fur_color;
+    int num_legs;
+    String environment;
 
-public class Bicycle {
-    public int cadence;
-    public int gear;
-    public int speed;
-
-    public void applyBrake(int decrement) {
-        speed -= decrement;
+    // methods
+    Animal(String furcolor, int numlegs, String environment) {
+        System.out.println("In constructor for Animal");
+        this.environment = environment;
+        this.fur_color = furcolor;
+        this.num_legs = numlegs;
     }
+
+    String animalToString() {
+        return ("Animal: Environment:"+this.environment+", Number of Legs:"+this.num_legs+", Fur Color:"+this.fur_color);
+    }
+
+    static String myStaticFunction() {
+        return "This function does not need an object";
+    }
+
 }
+
 public class Lesson03 {
 
     public static void main(String args[])
@@ -43,6 +40,19 @@ public class Lesson03 {
 
         c1.DoSomething();
         c2.DoSomething();
+
+        // classes
+        Animal an1 = new Animal("Black", 4, "Land");        
+        System.out.println(an1.animalToString());
+
+        // static functions
+        System.out.println(an1.myStaticFunction());
+
+        /*
+        System.out.println(an1.environment);
+        System.out.println(an1.fur_color);
+        System.out.println(an1.num_legs);
+        */
     }
 
 }

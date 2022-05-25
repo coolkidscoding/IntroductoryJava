@@ -13,10 +13,15 @@
 
 ## What is Object Oriented Programming?
 
-Java is an objected oriented language.  It allows users to model real world objects in code.  The main aim of OOP is to bind together data and functions into one unit.
+Java is an objected oriented language.  It allows users to model real world objects in code.  The main aim of OOP is to bind together data and functions into one unit.  The definining principles of OOP wil lbe discussed in more detail below.  First lets discuss a little about the mechanics behind OOP.
 
 A _class_ is a template for an object and an _object_ is an instance of a class.
 When an object is created it inherits all the methods and data from its class.
+
+    class ClassName {
+        // attributes
+        // methods
+    }
 
 ## Create a simple class
 
@@ -39,6 +44,10 @@ When an object is created it inherits all the methods and data from its class.
             System.out.println(SimpleObject.Add2(10, 12));
         }  
     }  
+
+## What is an Object?
+
+An __object__ is an instance of a __class__.  If we had a __class__ that modeled cars then a *Honda* would be an instance of a car and it would also be an *Object*.
 
 ## Static vs Non-Static
 
@@ -92,6 +101,10 @@ For attributes, methods and constructors, you can use one of the following:
 + __default__ The code is accessible in the same package.
 + _protected_ The code is accessible is the same package and subclasses.
 
+### Abstraction
+
+Data abstraction is the property by virtue of which only the essential details are displayed to the user.  The trivial or the non-essential units are not displayed to the user.
+
 ### Encapsulation
 
 Encapsulation is one of the fundamental priciples of OOP.  The meaning of encapsulation is to make sure that "sensitive" data is hidden from users.  To achieve this, you must:
@@ -111,6 +124,11 @@ Important terms to be aware of:
         class derived-class extends base-class {
             // methods and fields
         }
+
+### Polymorphism
+
+This OOP feature allows an object to differentiate itself from other objects eventhough the same method is being used.
+
 ---
 
 ##### **Cool Kids Coding School 2022, for any questions or comments contact info@coolkidscodingschool.com**
